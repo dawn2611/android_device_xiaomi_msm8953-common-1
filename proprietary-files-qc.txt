@@ -561,3 +561,6 @@ vendor/lib/libwvhidl.so
 
 # Wi-Fi
 vendor/bin/wcnss_service
+
+vendor/lib64/librmnetctl.so
+vendor/lib/librmnetctl.so
