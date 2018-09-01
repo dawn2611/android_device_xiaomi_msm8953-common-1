@@ -48,10 +48,16 @@ vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 
 # Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
-vendor/lib64/libbtnv.so
+vendor/lib64/libbtnv.s
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/libbt-hidlclient.so
+
+# Bluetooth (shared dependencies) - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
+vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_8_0.fw
