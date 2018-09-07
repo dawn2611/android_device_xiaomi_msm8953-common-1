@@ -52,6 +52,8 @@ vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
+vendor/lib/libb-vendor.so
+vendor/lib64/libt-vendor.so
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_8_0.fw
